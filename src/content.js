@@ -13,7 +13,7 @@ function generateHome() {
       <button class="mainBtn">Check our menu</button>
     </div>
     <div class="">
-      <img src="../main.jpg" alt="" />
+      <img src="./main.jpg" alt="" />
     </div>
   </div>
 </section>
@@ -22,7 +22,7 @@ function generateHome() {
   <div class="">
   <div class="">
     <p>10323 78 Ave NW, Edmonton, AB T6E 1N8, Canada</p>
-    <img src="../open.jpg" alt="" />
+    <img src="./open.jpg" alt="" />
   </div>
     <div class="">
       <h2>Hours</h2>
@@ -64,7 +64,7 @@ function generateMenu() {
           <h4 class="itemPrice">$3.50</h4>
         </div>
         <div class="itemImg">
-          <img src="/src/images/bread.jpg" alt="">
+          <img src="./images/bread.jpg" alt="">
         </div>
       </div>
       
@@ -74,7 +74,7 @@ function generateMenu() {
           <h4 class="itemPrice">$6.40</h4>
         </div>
         <div class="itemImg">
-          <img src="/src/images/onion soup.jpg" alt="">
+          <img src="./images/onion soup.jpg" alt="">
         </div>
       </div>
 
@@ -84,7 +84,7 @@ function generateMenu() {
           <h4 class="itemPrice">$7.30</h4>
         </div>
         <div class="itemImg">
-          <img src="/src/images/crab cake.jpg" alt="">
+          <img src="./images/crab cake.jpg" alt="">
         </div>
       </div>
 
@@ -94,7 +94,7 @@ function generateMenu() {
           <h4 class="itemPrice">$7</h4>
         </div>
         <div class="itemImg">
-          <img src="/src/images/crispy calamari.jpg" alt="">
+          <img src="./images/crispy calamari.jpg" alt="">
         </div>
       </div>
 
@@ -112,7 +112,7 @@ function generateMenu() {
             <h4 class="itemPrice">$14.50</h4>
           </div>
           <div class="itemImg">
-            <img src="/src/images/sirloin.jpg" alt="">
+            <img src="./images/sirloin.jpg" alt="">
           </div>
         </div>
 
@@ -124,7 +124,7 @@ function generateMenu() {
 
         
           <div class="itemImg">
-            <img src="/src/images/mignon.jpg" alt="">
+            <img src="./images/mignon.jpg" alt="">
           </div>
         </div>
 
@@ -137,7 +137,7 @@ function generateMenu() {
 
 
           <div class="itemImg">
-            <img src="/src/images/rib.jpg" alt="">
+            <img src="./images/rib.jpg" alt="">
           </div>
         </div>
 
@@ -149,7 +149,7 @@ function generateMenu() {
 
 
           <div class="itemImg">
-            <img src="/src/images/gotham.jpg" alt="">
+            <img src="./images/gotham.jpg" alt="">
           </div>
         </div>
 
@@ -168,7 +168,7 @@ function generateMenu() {
           <h4 class="itemPrice">$6.80</h4>
         </div>
         <div class="itemImg">
-          <img src="/src/images/salad.jpg" alt="">
+          <img src="./images/salad.jpg" alt="">
         </div>
       </div>
       <div class="menuItem">
@@ -180,7 +180,7 @@ function generateMenu() {
           <h4 class="itemPrice">$8.30</h4>
         </div>
         <div class="itemImg">
-          <img src="/src/images/homestead.jpg" alt="">
+          <img src="./images/homestead.jpg" alt="">
         </div>
       </div>
       </div>
@@ -192,7 +192,7 @@ function generateMenu() {
             <h4 class="itemPrice">$1</h4>
           </div>
           <div class="itemImg">
-            <img src="/src/images/soft drinks.jpg" alt="">
+            <img src="./images/soft drinks.jpg" alt="">
           </div>
         </div>
 
@@ -202,7 +202,7 @@ function generateMenu() {
             <h4 class="itemPrice">$3</h4>
           </div>
           <div class="itemImg">
-            <img src="/src/images/corona.jpg" alt="">
+            <img src="./images/corona.jpg" alt="">
           </div>
         </div>
 
@@ -213,7 +213,7 @@ function generateMenu() {
             <h4 class="itemPrice">$8</h4>
           </div>
           <div class="itemImg">
-            <img src="/src/images/gaffel.jpg" alt="">
+            <img src="./images/gaffel.jpg" alt="">
           </div>
         </div>
 
@@ -224,7 +224,7 @@ function generateMenu() {
             <h4 class="itemPrice">$8</h4>
           </div>
           <div class="itemImg">
-            <img src="/src/images/erdinger.jpg" alt="">
+            <img src="./images/erdinger.jpg" alt="">
           </div>
         </div>
 
@@ -235,7 +235,7 @@ function generateMenu() {
             <h4 class="itemPrice">$8</h4>
           </div>
           <div class="itemImg">
-            <img src="/src/images/samuel smith.jpg" alt="">
+            <img src="./images/samuel smith.jpg" alt="">
           </div>
         </div>
 
@@ -253,7 +253,7 @@ function generateContact() {
   <div>
 
     <div class="contactImg">
-      <img src="/src/images/contact.jpg" alt="">
+      <img src="./images/contact.jpg" alt="">
     </div>
 
     <div class="">

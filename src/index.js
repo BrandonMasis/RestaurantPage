@@ -1,11 +1,22 @@
 import { generateHome, generateMenu, generateContact } from "./content.js";
+import "./style.css";
 
 console.warn("It's working");
 
-const navHome = document.getElementById("navHome");
-const navMenu = document.getElementById("navMenu");
-const navContact = document.getElementById("navContact");
+const navHome = document.querySelectorAll(".navHome");
+const navMenu = document.querySelectorAll(".navMenu");
+const navContact = document.querySelectorAll(".navContact");
 
-navHome.addEventListener("click", generateHome);
-navMenu.addEventListener("click", generateMenu);
-navContact.addEventListener("click", generateContact);
+navHome.forEach((button) => {
+  button.addEventListener("click", generateHome);
+});
+
+navMenu.forEach((button) => {
+  button.addEventListener("click", generateMenu);
+});
+
+navContact.forEach((button) => {
+  button.addEventListener("click", generateContact);
+});
+
+generateHome();
