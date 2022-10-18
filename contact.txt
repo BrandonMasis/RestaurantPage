@@ -1,0 +1,16 @@
+   <section id="contact" class="sectionContainer">
+        <div>
+
+          <div class="contactImg">
+            <img src="/src/images/contact.jpg" alt="">
+          </div>
+
+          <div class="">
+           <h3>We are waiting for you at</h3>
+           <h2>10323 78 Ave NW, Edmonton, AB T6E 1N8, Canada</h2>
+           <p>Reservations at (250) 555-0199</p>
+          <button class="mainBtn">Open location in google maps</button>
+          </div>
+        </div>
+
+      </section>

@@ -1,0 +1,45 @@
+<section id="landing" class="sectionContainer">
+        <div class="">
+          <div class="">
+            <h1>Steak as it was meant to be</h1>
+            <p>
+              We are a locally owned and operated smokehouse located in the heart
+              of Old Strathcona. <br />An authentic BBQ experience with homemade
+              sauces, savoury sides, and a casual welcoming room to indulge.
+              Brisket, beer, and bourbon - keeping it simple, and doing it well.
+            </p>
+            <button class="mainBtn">Check our menu</button>
+          </div>
+          <div class="">
+            <img src="../main.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+  
+      <section id="schedule" class="sectionContainer">
+        <div class="">
+        <div class="">
+          <p>10323 78 Ave NW, Edmonton, AB T6E 1N8, Canada</p>
+          <img src="../open.jpg" alt="" />
+        </div>
+          <div class="">
+            <h2>Hours</h2>
+            <div class="line"></div>
+            <p class="workingHours">
+              Sunday: 8am - 8pm
+              <br>
+              Monday: 6am - 6pm
+              <br>
+              Tuesday: 6am - 6pm
+              <br>
+              Wednesday: 6am - 6pm
+              <br>
+              Thursday: 6am - 10pm
+              <br>
+              Friday: 6am - 10pm
+              <br>
+              Saturday: 8am - 10pm
+            </p>
+          </div>
+        </div>
+         </section>
