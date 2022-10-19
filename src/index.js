@@ -7,6 +7,8 @@ const navHome = document.querySelectorAll(".navHome");
 const navMenu = document.querySelectorAll(".navMenu");
 const navContact = document.querySelectorAll(".navContact");
 
+generateHome();
+
 navHome.forEach((button) => {
   button.addEventListener("click", generateHome);
 });
@@ -18,5 +20,3 @@ navMenu.forEach((button) => {
 navContact.forEach((button) => {
   button.addEventListener("click", generateContact);
 });
-
-generateHome();

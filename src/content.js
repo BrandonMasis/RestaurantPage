@@ -10,7 +10,7 @@ function generateHome() {
         sauces, savoury sides, and a casual welcoming room to indulge.
         Brisket, beer, and bourbon - keeping it simple, and doing it well.
       </p>
-      <button class="mainBtn">Check our menu</button>
+      <a class="mainBtn navMenu">Check our menu</a>
     </div>
     <div class="">
       <img src="./main.jpg" alt="" />
@@ -46,7 +46,10 @@ function generateHome() {
   </div>
    </section>`;
 
-  return content;
+  const navMenu = document.querySelectorAll(".navMenu");
+  navMenu.forEach((button) => {
+    button.addEventListener("click", generateMenu);
+  });
 }
 
 function generateMenu() {
@@ -243,8 +246,6 @@ function generateMenu() {
     </div>
   </div>
 </section>`;
-
-  return content;
 }
 
 function generateContact() {
@@ -265,8 +266,6 @@ function generateContact() {
   </div>
 
 </section>`;
-
-  return content;
 }
 
 export { generateHome, generateMenu, generateContact };
